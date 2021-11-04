@@ -1,0 +1,118 @@
+*,
+::before,
+::after{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing:border-box;
+}
+
+a:hover{
+    text-decoration: none;
+}
+/*------------------------------*/
+
+.wrapper {
+    max-width:1200px;
+
+}
+.header {
+    max-width:900px;
+    margin:0 auto;
+    background-color: rgb(255, 255, 255);
+    font-size:30px;
+   padding:10px 0px 10px 200px;
+    color:black; 
+}
+
+
+.main {
+    margin: 20px 10px 20px 10px;
+}
+.inline {
+    display:block;
+    background-color: rgb(204, 189, 168);
+    font-size:20px;
+    padding: 10px;
+    color:rgb(128, 103, 108)
+}
+.block{
+    min-width:200px;
+    min-height:200px;
+    margin:0 auto;
+    background-color: cadetblue;
+    padding:15px;
+}
+.block_1{
+    min-width:200px;
+    min-height:200px;
+    margin:0 auto;
+    background-color: rgb(92, 105, 106);
+     padding:15px;
+   
+}
+.block_2{
+    min-width:200px;
+    min-height:200px;
+    margin:0 auto;
+    background-color: rgb(192, 195, 196);
+     padding:15px;
+}
+.silka {
+    display: inline-block;
+    margin: 0px 0px 30px 0px;
+    background-color: bisque;
+      color:darkgrey
+}
+.silka_1 {
+ display: inline-block;
+    margin: 0px 0px 30px 0px;
+ background-color: bisque;
+   color:darkgrey
+
+}
+.silka_2 {
+     display: inline-block;
+    margin: 10px 0px 30px 0px;
+     background-color: bisque;
+     color:darkgrey
+}
+p{
+display:inline-block;
+     min-width:100px;
+   padding:10px;
+ margin:30px;
+    background-color: rgb(22, 183, 236);
+     padding:15px;
+
+}
+
+.div_1 {
+    max-width:700px;
+    min-height: 200px;
+    margin:0 auto;
+    background-color: blueviolet;
+    overflow:hidden;
+}
+.div_2 {
+    max-width:700px;
+     min-height: 200px;
+    background-color: rgb(227, 218, 228);
+  margin:-30px auto 0px auto;
+  
+}
+.skrol {
+    display:block;
+    padding: 10px;
+    max-height: 200px;
+    font-size: 60px;
+    background-color: khaki;
+    overflow:auto;
+}
+.footer {
+    max-width: 1200;
+    margin: 20px 20px 10px 20px;
+    background-color: midnightblue;
+    padding: 20px;
+    color: aliceblue;
+}
